@@ -99,12 +99,6 @@ if analysis == "Overview":
 
     st.subheader("Welcome to your financial workspace")
 
-    col1, col2, col3 = st.columns(3)
-
-    col1.metric("Analysis modes", "3")
-    col2.metric("Custom cash flows", "Available")
-    col3.metric("Company name", "Not required")
-
     st.markdown("### What can you calculate?")
 
     st.markdown("""
